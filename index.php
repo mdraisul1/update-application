@@ -9,6 +9,17 @@ if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $website = $_POST['website'];
+
+    $sql = "INSERT INTO demo(name, email, phone, website) VALUES('$name', '$email', '$phone', '$website')";
+    $result = mysqli_query($conn, $sql);
+
+    if($result){
+        // echo "Data inserted successfully";
+        echo "<script>alert('Data inserted successfully')</script>";
+        echo "<script>window.location.href = 'index.php'</script>";
+    }else{
+        echo "Failed: " . mysqli_error($conn);
+    }
 }
 
 
