@@ -1,4 +1,18 @@
+<?php
 
+// connect to database
+include "connect.php";
+
+// if submit button is clicked
+if(isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $website = $_POST['website'];
+}
+
+
+?>
 
 
 <!DOCTYPE html>
