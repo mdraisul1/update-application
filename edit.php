@@ -14,6 +14,11 @@ if(isset($_GET['id'])){
     $website = $row['website'];
 
     if(isset($_POST['submit'])){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $phone = $_POST['phone'];
+        $website = $_POST['website'];
+
         
     }
 
