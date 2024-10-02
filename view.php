@@ -32,6 +32,7 @@
                     $sql = "SELECT * FROM demo";
                     $result = mysqli_query($conn, $sql);
                     while($row = mysqli_fetch_assoc($result)){
+                        $id = $row['id'];
                         $name = $row['name'];
                         $email = $row['email'];
                         $phone = $row['phone'];

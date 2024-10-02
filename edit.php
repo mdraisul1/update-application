@@ -7,6 +7,17 @@ if(isset($_GET['id'])){
     $sql = "SELECT * FROM demo WHERE id = $id";
     $result = mysqli_query($conn, $sql);
     $row = mysqli_fetch_assoc($result);
+
+    $name = $row['name'];
+    $email = $row['email'];
+    $phone = $row['phone'];
+    $website = $row['website'];
+
+    if(isset($_POST['submit'])){
+        
+    }
+
+
 }
 ?>
 
