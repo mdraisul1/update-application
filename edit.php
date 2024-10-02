@@ -19,7 +19,7 @@ if(isset($_GET['id'])){
         $phone = $_POST['phone'];
         $website = $_POST['website'];
 
-        
+        $sql ="UPDATE demo SET name = '$name', email = '$email', phone = '$phone', website = '$website' WHERE id = $id";
     }
 
 
