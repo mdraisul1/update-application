@@ -25,7 +25,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
 You can clone the repository from GitHub or download it as a ZIP file.
 
 ```bash
-git clone https://github.com/your-username/php-crud-project.git
+[git clone https://github.com/mdraisul1/update-application]
 ```
 
 ### 2. Create the Database
