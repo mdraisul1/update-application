@@ -14,6 +14,8 @@
         
         <!-- view data in php crud project  -->
         <table class="w-full mt-8 text-center border border-gray-300 bg-green-200 text-gray-800 px-4 py-2">
+            <a href="index.php"><input type="button" value="Back" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"></a>
+            <!-- table header -->
             <thead class="bg-green-600 text-white">
                 <tr>
                     <th class="border border-gray-300 px-4 py-2">Name</th>

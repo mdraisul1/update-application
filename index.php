@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
     if($result){
         // echo "Data inserted successfully";
         echo "<script>alert('Data inserted successfully')</script>";
-        echo "<script>window.location.href = 'index.php'</script>";
+        echo "<script>window.location.href = 'view.php'</script>";
     }else{
         echo "Failed: " . mysqli_error($conn);
     }
